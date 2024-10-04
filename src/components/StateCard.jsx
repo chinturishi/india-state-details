@@ -6,7 +6,7 @@ const StateCard = ({
   chiefMinister,
   homeMinister,
   financeMinister,
-  educationMinister,
+  //educationMinister,
   image,
   stateDetail,
 }) => {
@@ -21,8 +21,8 @@ const StateCard = ({
             {chiefMinister}
           </p>
           <p>
-            <b>Education Minister: </b>
-            {educationMinister}
+            <b>Finace Minister: </b>
+            {financeMinister}
           </p>
           <p>
             <b>Home Minister: </b>

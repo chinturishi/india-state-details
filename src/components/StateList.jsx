@@ -1,34 +1,30 @@
-import React, { useEffect, useState } from 'react'
-import StateCard from './StateCard';
-import { stateList } from '../../stateData';
+import React, { useEffect, useState } from "react";
+import StateCard from "./StateCard";
+import { stateList } from "../../stateData";
 
 const StateList = () => {
-    const[states,setStates]=useState([]);
-    useEffect(()=>{
-        setStates(stateList);
-    },[]);
+  const [states, setStates] = useState([]);
+  useEffect(() => {
+    setStates(stateList);
+  }, []);
   return (
     <div className="countries-container">
-      {
-        states
-        .map((state) => {
-          console.log(state);
-          return (
-            <StateCard
+      {states.map((state) => {
+        console.log(state);
+        return (
+          <StateCard
             name={state.name}
-            chiefMinister={state.ministries.Chief_Minister}
-            homeMinister={state.ministries.Home_Minister}
-            financeMinister={state.ministries.Finance_Minister}
-            educationMinister={state.ministries.Education_Minister}
+            chiefMinister={state.ministries.chief_minister}
+            homeMinister={state.ministries.home_minister}
+            financeMinister={state.ministries.finance_minister}
+            //educationMinister={state.ministries.Education_Minister}
             image={state.image}
             stateDetail={state}
-            
-            />
-          );
-        })
-      }
+          />
+        );
+      })}
     </div>
-  )
-}
+  );
+};
 
-export default StateList
+export default StateList;
