@@ -1,101 +1,36 @@
-export const stateList=[
+export const stateList= [
     {
         id: crypto.randomUUID(),
         name: "Andhra Pradesh",
         ministries: {
-            Chief_Minister: "Y. S. Jagan Mohan Reddy",
-            Home_Minister: "M. Sucharita",
-            Finance_Minister: "B. Rajendranath Reddy",
-            Education_Minister: "Botsa Satyanarayana"
+            chief_minister: "Y. S. Jagan Mohan Reddy",
+            home_minister: "Mekathoti Sucharita",
+            finance_minister: "Buggana Rajendranath"
         },
         districts: [
-            "Ananthapur",
+            "Anantapur",
             "Chittoor",
             "East Godavari",
             "Guntur",
             "Krishna",
             "Kurnool",
-            "Nellore",
             "Prakasam",
             "Srikakulam",
+            "Sri Potti Sriramulu Nellore",
             "Visakhapatnam",
             "Vizianagaram",
             "West Godavari",
             "YSR Kadapa"
-        ]
-    },
-    {
-        id: crypto.randomUUID(),
-        name: "Arunachal Pradesh",
-        ministries: {
-            Chief_Minister: "Pema Khandu",
-            Home_Minister: "Bamang Felix",
-            Finance_Minister: "Karma Tagar",
-            Education_Minister: "Taba Tedir"
-        },
-        districts: [
-            "Aalo",
-            "Anjaw",
-            "Changlang",
-            "Dibang Valley",
-            "East Kameng",
-            "East Siang",
-            "Itanagar",
-            "Kra Daadi",
-            "Lepa Rada",
-            "Lower Dibang Valley",
-            "Lower Subansiri",
-            "Namsai",
-            "Papum Pare",
-            "Tawang",
-            "Tirap",
-            "Upper Dibang Valley",
-            "Upper Siang",
-            "West Kameng",
-            "West Siang"
-        ]
-    },
-    {
-        id: crypto.randomUUID(),
-        name: "Assam",
-        ministries: {
-            Chief_Minister: "Himanta Biswa Sarma",
-            Home_Minister: "Gaurav Gogoi",
-            Finance_Minister: "Ajanta Neog",
-            Education_Minister: "Ranoj Pegu"
-        },
-        districts: [
-            "Baksa",
-            "Barpeta",
-            "Bishnupur",
-            "Darrang",
-            "Dibrugarh",
-            "Goalpara",
-            "Golaghat",
-            "Hailakandi",
-            "Jorhat",
-            "Kamrup",
-            "Karimganj",
-            "Kokrajhar",
-            "Lakhimpur",
-            "Morigaon",
-            "Nagaon",
-            "Nalbari",
-            "Sivasagar",
-            "Sonitpur",
-            "Tinsukia",
-            "Udalguri",
-            "West Karbi Anglong"
-        ]
+        ],
+        image: "https://www.nlcbharat.org/wp-content/uploads/2023/01/Andhra-Pradesh.png"
     },
     {
         id: crypto.randomUUID(),
         name: "Bihar",
         ministries: {
-            Chief_Minister: "Nitish Kumar",
-            Home_Minister: "Rajendra Prasad",
-            Finance_Minister: "Vijay Kumar Chaudhary",
-            Education_Minister: "Ashok Choudhary"
+            chief_minister: "Nitish Kumar",
+            home_minister: "Nitish Kumar",
+            finance_minister: "Vijay Kumar Choudhary"
         },
         districts: [
             "Araria",
@@ -104,9 +39,10 @@ export const stateList=[
             "Banka",
             "Begusarai",
             "Bhagalpur",
-            "Bihar Sharif",
+            "Bhojpur",
             "Buxar",
             "Darbhanga",
+            "East Champaran",
             "Gaya",
             "Gopalganj",
             "Jamui",
@@ -114,88 +50,89 @@ export const stateList=[
             "Kaimur",
             "Katihar",
             "Khagaria",
-            "Kishanganj",
-            "Lakhisarai",
             "Madhepura",
             "Madhubani",
             "Munger",
             "Nalanda",
             "Nawada",
             "Patna",
-            "Purnea",
+            "Purnia",
             "Rohtas",
+            "Saharsa",
+            "Samastipur",
             "Saran",
             "Sheikhpura",
+            "Sheohar",
             "Sitamarhi",
+            "Siwan",
             "Supaul",
             "Vaishali",
             "West Champaran"
-        ]
+        ],
+        image: "https://www.nlcbharat.org/wp-content/uploads/2023/01/Bihar.png"
     },
     {
         id: crypto.randomUUID(),
         name: "Chhattisgarh",
         ministries: {
-            Chief_Minister: "Bhupesh Baghel",
-            Home_Minister: "Tamradhwaj Sahu",
-            Finance_Minister: "T. S. Singh Deo",
-            Education_Minister: "Premsai Singh Tekam"
+            chief_minister: "Bhupesh Baghel",
+            home_minister: "Tamradhwaj Sahu",
+            finance_minister: "T. S. Singh Deo"
         },
         districts: [
             "Balod",
             "Baloda Bazar",
-            "Bemetara",
-            "Bilaspur",
             "Dantewada",
             "Dhamtari",
             "Durg",
             "Gariaband",
             "JanJGir-Champa",
-            "Jashpur",
-            "Kanker",
-            "Kondagaon",
             "Korba",
+            "Koriya",
             "Mahasamund",
             "Raigarh",
             "Raipur",
             "Rajnandgaon",
-            "Sukma",
             "Surguja"
-        ]
+        ],
+        image: "https://www.nlcbharat.org/wp-content/uploads/2023/01/Chhattisgarh.png"
     },
     {
         id: crypto.randomUUID(),
         name: "Goa",
         ministries: {
-            Chief_Minister: "Pramod Sawant",
-            Home_Minister: "Shri Amit Shah",
-            Finance_Minister: "Jaisheela Kharvi",
-            Education_Minister: "Vishwajit Rane"
+            chief_minister: "Pramod Sawant",
+            home_minister: "Shripad Naik",
+            finance_minister: "Pramod Sawant"
         },
         districts: [
             "North Goa",
             "South Goa"
-        ]
+        ],
+        image: "https://www.nlcbharat.org/wp-content/uploads/2023/01/Goa.png"
     },
     {
         id: crypto.randomUUID(),
         name: "Gujarat",
         ministries: {
-            Chief_Minister: "Bhupendra Patel",
-            Home_Minister: "Harsh Sanghavi",
-            Finance_Minister: "Kanu Desai",
-            Education_Minister: "K. R. K. Ramesh"
+            chief_minister: "Bhupendra Patel",
+            home_minister: "Harsh Sanghavi",
+            finance_minister: "Kanu Desai"
         },
         districts: [
             "Ahmedabad",
             "Amreli",
             "Anand",
+            "Aravalli",
             "Banaskantha",
             "Bharuch",
             "Bhavnagar",
             "Dahod",
             "Dangs",
             "Gandhinagar",
+            "Gir Somnath",
+            "Jamnagar",
+            "Junagadh",
             "Kutch",
             "Kheda",
             "Mahisagar",
@@ -211,16 +148,16 @@ export const stateList=[
             "Surendranagar",
             "Vadodara",
             "Valsad"
-        ]
+        ],
+        image: "https://www.nlcbharat.org/wp-content/uploads/2023/01/Gujarat.png"
     },
     {
         id: crypto.randomUUID(),
         name: "Haryana",
         ministries: {
-            Chief_Minister: "Manohar Lal Khattar",
-            Home_Minister: "Anil Vij",
-            Finance_Minister: "Capt. Abhimanyu",
-            Education_Minister: "Kanwar Pal"
+            chief_minister: "Manohar Lal Khattar",
+            home_minister: "Anil Vij",
+            finance_minister: "Capt. Abhimanyu"
         },
         districts: [
             "Ambala",
@@ -235,7 +172,6 @@ export const stateList=[
             "Kaithal",
             "Karnal",
             "Mahendragarh",
-            "Nuh",
             "Panchkula",
             "Panipat",
             "Rewari",
@@ -243,16 +179,16 @@ export const stateList=[
             "Sirsa",
             "Sonipat",
             "Yamunanagar"
-        ]
+        ],
+        image: "https://www.nlcbharat.org/wp-content/uploads/2023/01/Haryana.png"
     },
     {
         id: crypto.randomUUID(),
         name: "Himachal Pradesh",
         ministries: {
-            Chief_Minister: "Sukhvinder Singh Sukhu",
-            Home_Minister: "Rohit Thakur",
-            Finance_Minister: "Rohit Thakur",
-            Education_Minister: "Rohit Thakur"
+            chief_minister: "Jai Ram Thakur",
+            home_minister: "Rohit Thakur",
+            finance_minister: "Ram Lal Markanda"
         },
         districts: [
             "Bilaspur",
@@ -266,16 +202,16 @@ export const stateList=[
             "Sirmaur",
             "Solan",
             "Una"
-        ]
+        ],
+        image: "https://www.nlcbharat.org/wp-content/uploads/2023/01/Himachal-Pradesh.png"
     },
     {
         id: crypto.randomUUID(),
         name: "Jharkhand",
         ministries: {
-            Chief_Minister: "Hemant Soren",
-            Home_Minister: "B. W. L. D. W. G. S. P. S.",
-            Finance_Minister: "Rameshwar Oraon",
-            Education_Minister: "Jagarnath Mahto"
+            chief_minister: "Hemant Soren",
+            home_minister: "Ramchandra Chandravanshi",
+            finance_minister: "Rameshwar Oraon"
         },
         districts: [
             "Bokaro",
@@ -296,29 +232,32 @@ export const stateList=[
             "Pakur",
             "Palamu",
             "Ranchi",
-            "Sahebganj",
+            "Sahibganj",
             "Seraikela Kharsawan",
+            "Simdega",
             "West Singhbhum"
-        ]
+        ],
+        image: "https://www.nlcbharat.org/wp-content/uploads/2023/01/Jharkhand.png"
     },
     {
         id: crypto.randomUUID(),
         name: "Karnataka",
         ministries: {
-            Chief_Minister: "Siddaramaiah",
-            Home_Minister: "G. Parameshwara",
-            Finance_Minister: "N. Manjunath",
-            Education_Minister: "Madhu Bangarappa"
+            chief_minister: "Basavaraj Bommai",
+            home_minister: "Araga Jnanendra",
+            finance_minister: "Nirmal Kumar Surana"
         },
         districts: [
-            "Bagalkot",
+            "Bagalkote",
             "Ballari",
+            "Bangalore Rural",
+            "Bangalore Urban",
             "Belagavi",
-            "Bengaluru Rural",
-            "Bengaluru Urban",
+            "Bellary",
+            "Bengaluru",
             "Bidar",
             "Chamarajanagar",
-            "Chikkaballapur",
+            "Chikballapur",
             "Chikkamagaluru",
             "Chitradurga",
             "Dakshina Kannada",
@@ -340,41 +279,40 @@ export const stateList=[
             "Uttara Kannada",
             "Vijayapura",
             "Yadgir"
-        ]
+        ],
+        image: "https://www.nlcbharat.org/wp-content/uploads/2023/01/Karnataka.png"
     },
     {
         id: crypto.randomUUID(),
         name: "Kerala",
         ministries: {
-            Chief_Minister: "Pinarayi Vijayan",
-            Home_Minister: "Mohammed Riyas",
-            Finance_Minister: "K. N. Balagopal",
-            Education_Minister: "V. Shivankutty"
+            chief_minister: "Pinarayi Vijayan",
+            home_minister: "Mohammed Riyas",
+            finance_minister: "K. N. Balagopal"
         },
         districts: [
             "Alappuzha",
             "Ernakulam",
             "Idukki",
-            "Kozhikode",
             "Kollam",
+            "Kottayam",
+            "Kozhikode",
             "Malappuram",
             "Palakkad",
             "Pathanamthitta",
             "Thiruvananthapuram",
-            "Wayanad",
-            "Kottayam",
-            "Kannur",
-            "Kasargod"
-        ]
+            "Thrissur",
+            "Wayanad"
+        ],
+        image: "https://www.nlcbharat.org/wp-content/uploads/2023/01/Kerala.png"
     },
     {
         id: crypto.randomUUID(),
         name: "Madhya Pradesh",
         ministries: {
-            Chief_Minister: "Shivraj Singh Chouhan",
-            Home_Minister: "Narottam Mishra",
-            Finance_Minister: "Jitu Patwari",
-            Education_Minister: "Inder Singh Parmar"
+            chief_minister: "Shivraj Singh Chouhan",
+            home_minister: "Narottam Mishra",
+            finance_minister: "Jagdish Deora"
         },
         districts: [
             "Agar Malwa",
@@ -393,6 +331,7 @@ export const stateList=[
             "Datia",
             "Dewas",
             "Dhar",
+            "Dindori",
             "Guna",
             "Gwalior",
             "Harda",
@@ -402,21 +341,22 @@ export const stateList=[
             "Jhabua",
             "Katni",
             "Khandwa",
-            "Khargone",
             "Mandla",
             "Mandsaur",
             "Morena",
             "Narsinghpur",
             "Neemuch",
-            "Panchmarhi",
             "Panna",
-            "Raisen",
             "Rajgarh",
             "Ratlam",
             "Rewa",
             "Sagar",
             "Satna",
             "Sehore",
+            "Senapati",
+            "Shahdol",
+            "Shajapur",
+            "Sheopur",
             "Shivpuri",
             "Sidhi",
             "Singrauli",
@@ -424,39 +364,36 @@ export const stateList=[
             "Ujjain",
             "Umaria",
             "Vidisha"
-        ]
+        ],
+        image: "https://www.nlcbharat.org/wp-content/uploads/2023/01/Madhya-Pradesh.png"
     },
     {
         id: crypto.randomUUID(),
         name: "Maharashtra",
         ministries: {
-            Chief_Minister: "Eknath Shinde",
-            Home_Minister: "Devendra Fadnavis",
-            Finance_Minister: "Raja S. K. N. M. R.",
-            Education_Minister: "Deepak Kesarkar"
+            chief_minister: "Eknath Shinde",
+            home_minister: "Devendra Fadnavis",
+            finance_minister: "Devendra Fadnavis"
         },
         districts: [
             "Ahmednagar",
             "Akola",
             "Aurangabad",
-            "Beed",
             "Bhandara",
             "Buldhana",
             "Chandrapur",
             "Dhule",
             "Gadchiroli",
-            "Gondia",
-            "Hingoli",
+            "jalna",
             "Jalna",
-            "Jalgaon",
             "Kolhapur",
             "Latur",
             "Mumbai",
             "Nagpur",
             "Nanded",
-            "Nashik",
+            "Nandurbar",
+            "Nasik",
             "Osmanabad",
-            "Palghar",
             "Parbhani",
             "Pune",
             "Raigad",
@@ -469,16 +406,16 @@ export const stateList=[
             "Wardha",
             "Washim",
             "Yavatmal"
-        ]
+        ],
+        image: "https://www.nlcbharat.org/wp-content/uploads/2023/01/Maharashtra.png"
     },
     {
         id: crypto.randomUUID(),
         name: "Manipur",
         ministries: {
-            Chief_Minister: "N. Biren Singh",
-            Home_Minister: "K. B. Shyam",
-            Finance_Minister: "K. Govindas",
-            Education_Minister: "Sorokhaibam Rajen Singh"
+            chief_minister: "N. Biren Singh",
+            home_minister: "N. Biren Singh",
+            finance_minister: "Th. Biswajit Singh"
         },
         districts: [
             "Bishnupur",
@@ -497,100 +434,96 @@ export const stateList=[
             "Tengnoupal",
             "Thoubal",
             "Ukhrul"
-        ]
+        ],
+        image: "https://www.nlcbharat.org/wp-content/uploads/2023/01/Manipur.png"
     },
     {
         id: crypto.randomUUID(),
         name: "Meghalaya",
         ministries: {
-            Chief_Minister: "Conrad Sangma",
-            Home_Minister: "Lahkmen Rymbui",
-            Finance_Minister: "Prestone Tynsong",
-            Education_Minister: "Rohit Sangma"
+            chief_minister: "Conrad Sangma",
+            home_minister: "Lahkmen Rymbui",
+            finance_minister: "M. Ampareen Lyngdoh"
         },
         districts: [
             "East Garo Hills",
             "East Khasi Hills",
-            "North Garo Hills",
+            "Jaintia Hills",
             "Ri Bhoi",
-            "South Garo Hills",
-            "South Khasi Hills",
             "West Garo Hills",
             "West Khasi Hills"
-        ]
+        ],
+        image: "https://www.nlcbharat.org/wp-content/uploads/2023/01/Meghalaya.png"
     },
     {
         id: crypto.randomUUID(),
         name: "Mizoram",
         ministries: {
-            Chief_Minister: "Zoramthanga",
-            Home_Minister: "Laldenga",
-            Finance_Minister: "Lalchhandama Ralte",
-            Education_Minister: "Zoramthanga"
+            chief_minister: "Zoramthanga",
+            home_minister: "L. T. H. Sangliana",
+            finance_minister: "L. T. H. Sangliana"
         },
         districts: [
             "Aizawl",
             "Champhai",
-            "Hnahthial",
-            "Khawzawl",
             "Kolasib",
-            "Lawngtlai",
             "Lunglei",
             "Mamit",
             "Saiha",
             "Serchhip"
-        ]
+        ],
+        image: "https://www.nlcbharat.org/wp-content/uploads/2023/01/Mizoram.png"
     },
     {
         id: crypto.randomUUID(),
         name: "Nagaland",
         ministries: {
-            Chief_Minister: "Neiphiu Rio",
-            Home_Minister: "Y. Patton",
-            Finance_Minister: "N. L. Khaplang",
-            Education_Minister: "Temjen Imna Along"
+            chief_minister: "Neiphiu Rio",
+            home_minister: "Y. Patton",
+            finance_minister: "K. M. T. M. Chuba Chang"
         },
         districts: [
             "Dimapur",
             "Kiphire",
-            "Longleng",
             "Mokokchung",
             "Mon",
-            "Peren",
             "Phek",
             "Tuensang",
             "Wokha",
             "Zunheboto"
-        ]
+        ],
+        image: "https://www.nlcbharat.org/wp-content/uploads/2023/01/Nagaland.png"
     },
     {
         id: crypto.randomUUID(),
         name: "Odisha",
         ministries: {
-            Chief_Minister: "Naveen Patnaik",
-            Home_Minister: "B. K. Arukh",
-            Finance_Minister: "Niranjan Pujari",
-            Education_Minister: "Samir Ranjan Dash"
+            chief_minister: "Naveen Patnaik",
+            home_minister: "Tusharkanti Behera",
+            finance_minister: "Niranjan Pujari"
         },
         districts: [
             "Angul",
+            "Boudh",
             "Balangir",
             "Balasore",
-            "Bargarh",
+            "Baragarh",
             "Bhadrak",
             "Bolangir",
+            "Cuttack",
             "Deogarh",
             "Dhenkanal",
             "Ganjam",
             "Gajapati",
-            "Jajpur",
             "Jagatsinghpur",
+            "Jajpur",
             "Jharsuguda",
             "Kalahandi",
             "Kandhamal",
             "Keonjhar",
             "Khurda",
             "Koraput",
+            "Mayurbhanj",
             "Nabarangpur",
             "Nayagarh",
             "Nuapada",
@@ -598,23 +531,24 @@ export const stateList=[
             "Rayagada",
             "Sambalpur",
             "Sundargarh"
-        ]
+        ],
+        image: "https://www.nlcbharat.org/wp-content/uploads/2023/01/Odisha.png"
     },
     {
         id: crypto.randomUUID(),
         name: "Punjab",
         ministries: {
-            Chief_Minister: "Bhagwant Mann",
-            Home_Minister: "Sukhjinder Singh Randhawa",
-            Finance_Minister: "Harpal Singh Cheema",
-            Education_Minister: "Gurmeet Singh Meet Hayer"
+            chief_minister: "Bhagwant Mann",
+            home_minister: "Bharat Bhushan Ashu",
+            finance_minister: "Harpal Singh Cheema"
         },
         districts: [
             "Amritsar",
             "Barnala",
             "Bathinda",
+            "Faridkot",
             "Fatehgarh Sahib",
-            "Fazilka",
+            "Ferozepur",
             "Gurdaspur",
             "Hoshiarpur",
             "Jalandhar",
@@ -623,39 +557,42 @@ export const stateList=[
             "Mansa",
             "Moga",
             "Pathankot",
-            "Rupnagar",
             "Sangrur",
             "Shaheed Bhagat Singh Nagar",
+            "Sri Muktsar Sahib",
             "Tarn Taran"
-        ]
+        ],
+        image: "https://www.nlcbharat.org/wp-content/uploads/2023/01/Punjab.png"
     },
     {
         id: crypto.randomUUID(),
         name: "Rajasthan",
         ministries: {
-            Chief_Minister: "Ashok Gehlot",
-            Home_Minister: "Sukhram Vishnoi",
-            Finance_Minister: "Tarun Kumawat",
-            Education_Minister: "Bhanwar Singh Bhati"
+            chief_minister: "Ashok Gehlot",
+            home_minister: "Shanti Kumar Dhariwal",
+            finance_minister: "Harish Choudhary"
         },
         districts: [
             "Ajmer",
             "Alwar",
             "Banswara",
             "Baran",
-            "Barmer",
-            "Bhilwara",
+            "Barmar",
             "Bikaner",
             "Chittorgarh",
             "Churu",
             "Dausa",
             "Dholpur",
             "Dungarpur",
-            "Hanumangarh",
+            "Ganganagar",
+            "Hindaun",
             "Jaipur",
             "Jaisalmer",
+            "Jalore",
             "Jhalawar",
             "Jhunjhunu",
+            "Karauli",
+            "Kota",
             "Nagaur",
             "Pali",
             "Rajsamand",
@@ -663,32 +600,32 @@ export const stateList=[
             "Sikar",
             "Tonk",
             "Udaipur"
-        ]
+        ],
+        image: "https://www.nlcbharat.org/wp-content/uploads/2023/01/Rajasthan.png"
     },
     {
         id: crypto.randomUUID(),
         name: "Sikkim",
         ministries: {
-            Chief_Minister: "Prem Singh Tamang",
-            Home_Minister: "K. N. Lepcha",
-            Finance_Minister: "K. N. Lepcha",
-            Education_Minister: "K. N. Lepcha"
+            chief_minister: "Prem Singh Tamang",
+            home_minister: "K. N. Lepcha",
+            finance_minister: "A. K. Ghatani"
         },
         districts: [
             "East Sikkim",
             "North Sikkim",
             "South Sikkim",
             "West Sikkim"
-        ]
+        ],
+        image: "https://www.nlcbharat.org/wp-content/uploads/2023/01/Sikkim.png"
     },
     {
         id: crypto.randomUUID(),
         name: "Tamil Nadu",
         ministries: {
-            Chief_Minister: "M. K. Stalin",
-            Home_Minister: "V. Senthil Balaji",
-            Finance_Minister: "Thangam Thennarasu",
-            Education_Minister: "Anbil Mahesh Poyyamozhi"
+            chief_minister: "M. K. Stalin",
+            home_minister: "M. S. J. Rajakannappan",
+            finance_minister: "Palani N. Palaniappan"
         },
         districts: [
             "Ariyalur",
@@ -699,44 +636,38 @@ export const stateList=[
             "Dharmapuri",
             "Dindigul",
             "Erode",
-            "Kallakurichi",
+            "Kanchipuram",
             "Kanyakumari",
             "Karur",
-            "Krishnagiri",
             "Madurai",
             "Nagapattinam",
             "Namakkal",
-            "Nilgiris",
             "Perambalur",
             "Pudukkottai",
             "Ramanathapuram",
-            "Ranipet",
             "Salem",
-            "Sivagangai",
-            "Tenkasi",
+            "Sivaganga",
             "Thanjavur",
             "Theni",
+            "Thoothukudi",
             "Tiruchirappalli",
             "Tirunelveli",
-            "Tiruvarur",
             "Vellore",
-            "Villupuram",
             "Virudhunagar"
-        ]
+        ],
+        image: "https://www.nlcbharat.org/wp-content/uploads/2023/01/Tamil-Nadu.png"
     },
     {
         id: crypto.randomUUID(),
         name: "Telangana",
         ministries: {
-            Chief_Minister: "K. Chandrashekar Rao",
-            Home_Minister: "Mohammed Mahmood Ali",
-            Finance_Minister: "T. Harish Rao",
-            Education_Minister: "P. Sabitha Indra Reddy"
+            chief_minister: "K. Chandrashekar Rao",
+            home_minister: "Mohammed Mahmood Ali",
+            finance_minister: "T. Harish Rao"
         },
         districts: [
             "Adilabad",
             "Hyderabad",
-            "Jagtiyal",
             "Jagtial",
             "Jangaon",
             "Jayashankar Bhupalpally",
@@ -747,32 +678,30 @@ export const stateList=[
             "Mahabubnagar",
             "Mancherial",
             "Medak",
-            "Medchal-Malkajgiri",
+            "Medchal–Malkajgiri",
             "Nalgonda",
             "Nizamabad",
             "Peddapalli",
-            "Rajanna Sircilla",
-            "Rangareddy",
             "Sangareddy",
             "Siddipet",
             "Suryapet",
             "Vikarabad",
+            "Wanaparthy",
             "Warangal Rural",
             "Warangal Urban",
             "Yadadri Bhuvanagiri"
-        ]
+        ],
+        image: "https://www.nlcbharat.org/wp-content/uploads/2023/01/Telangana.png"
     },
     {
         id: crypto.randomUUID(),
         name: "Tripura",
         ministries: {
-            Chief_Minister: "Manik Saha",
-            Home_Minister: "Sushanta Chowdhury",
-            Finance_Minister: "Pranajit Singha Roy",
-            Education_Minister: "Ratan Lal Nath"
+            chief_minister: "Manik Saha",
+            home_minister: "Manik Saha",
+            finance_minister: "Pranajit Singha Roy"
         },
         districts: [
-            "Agartala",
             "Dhalai",
             "Gomati",
             "Khowai",
@@ -781,32 +710,32 @@ export const stateList=[
             "South Tripura",
             "Unakoti",
             "West Tripura"
-        ]
+        ],
+        image: "https://www.nlcbharat.org/wp-content/uploads/2023/01/Tripura.png"
     },
     {
         id: crypto.randomUUID(),
         name: "Uttar Pradesh",
         ministries: {
-            Chief_Minister: "Yogi Adityanath",
-            Home_Minister: "Braj Mohan Shukla",
-            Finance_Minister: "Suresh Kumar Khanna",
-            Education_Minister: "Yogi Adityanath"
+            chief_minister: "Yogi Adityanath",
+            home_minister: "Brij Lal",
+            finance_minister: "Suresh Khanna"
         },
         districts: [
             "Agra",
             "Aligarh",
-            "Allahabad",
             "Ambedkarnagar",
             "Amethi",
             "Auraiya",
+            "Ayodhya",
             "Azamgarh",
             "Badaun",
+            "Baghpat",
             "Bahraich",
-            "Balrampur",
+            "Ballia",
             "Banda",
             "Barabanki",
             "Bareilly",
-            "Bhadohi",
             "Bijnor",
             "Budaun",
             "Bulandshahr",
@@ -819,56 +748,57 @@ export const stateList=[
             "Farrukhabad",
             "Fatehpur",
             "Firozabad",
-            "Gautam Buddh Nagar",
+            "Gautam Buddha Nagar",
             "Ghaziabad",
             "Ghazipur",
             "Gonda",
-            "Gorakhpur",
             "Hamirpur",
+            "Hapur",
             "Hardoi",
             "Hathras",
             "Jalaun",
             "Jaunpur",
             "Jhansi",
             "Kannauj",
-            "Kanpur",
+            "Kanpur Dehat",
+            "Kanpur Nagar",
+            "Kasganj",
             "Kaushambi",
-            "Kheri",
             "Kushinagar",
             "Lakhimpur Kheri",
+            "Lalitpur",
             "Lucknow",
             "Maharajganj",
             "Mahoba",
             "Mainpuri",
             "Mathura",
-            "Mau",
             "Meerut",
-            "Mirzapur",
-            "Mohammadabad",
+            "Mau",
+            "Muzaffarnagar",
             "Pilibhit",
             "Pratapgarh",
-            "Raebareli",
+            "Rae Bareli",
             "Rampur",
             "Saharanpur",
-            "Sambhal",
             "Shahjahanpur",
             "Shrawasti",
             "Siddharthnagar",
+            "Sitapur",
             "Sonbhadra",
             "Sultanpur",
             "Unnao",
             "Varanasi",
-            "Shahjahanpur"
-        ]
+            "Badaun"
+        ],
+        image: "https://www.nlcbharat.org/wp-content/uploads/2023/01/Uttar-Pradesh.png"
     },
     {
         id: crypto.randomUUID(),
         name: "Uttarakhand",
         ministries: {
-            Chief_Minister: "Pushkar Singh Dhami",
-            Home_Minister: "Dhan Singh Rawat",
-            Finance_Minister: "Prakash Pant",
-            Education_Minister: "Arvind Pandey"
+            chief_minister: "Pushkar Singh Dhami",
+            home_minister: "Dinesh Mahara",
+            finance_minister: "Prem Chand Aggarwal"
         },
         districts: [
             "Almora",
@@ -884,22 +814,23 @@ export const stateList=[
             "Tehri Garhwal",
             "Udham Singh Nagar",
             "Uttarkashi"
-        ]
+        ],
+        image: "https://www.nlcbharat.org/wp-content/uploads/2023/01/Uttarakhand.png"
     },
     {
         id: crypto.randomUUID(),
         name: "West Bengal",
         ministries: {
-            Chief_Minister: "Mamata Banerjee",
-            Home_Minister: "Narayan Dutta",
-            Finance_Minister: "Amit Mitra",
-            Education_Minister: "Bratya Basu"
+            chief_minister: "Mamata Banerjee",
+            home_minister: "Jagdeep Dhankhar",
+            finance_minister: "Chandrayee Mukherjee"
         },
         districts: [
             "Alipurduar",
             "Bankura",
             "Birbhum",
-            "Burdwan",
+            "Bardhaman",
+            "Bhowanipore",
             "Cooch Behar",
             "Dakshin Dinajpur",
             "Darjeeling",
@@ -907,16 +838,19 @@ export const stateList=[
             "Howrah",
             "Jalpaiguri",
             "Jhargram",
+            "Koch Bihar",
+            "Kolkata",
             "Malda",
-            "Medinipur",
             "Murshidabad",
             "Nadia",
             "North 24 Parganas",
-            "Purba Bardhaman",
+            "Purba Medinipur",
+            "Paschim Medinipur",
             "Purulia",
             "South 24 Parganas",
-            "Uttar Dinajpur",
-            "Kolkata"
-        ]
+            "Uttar Dinajpur"
+        ],
+        image: "https://www.nlcbharat.org/wp-content/uploads/2023/01/West-Bengal.png"
     }
-]
+];
+

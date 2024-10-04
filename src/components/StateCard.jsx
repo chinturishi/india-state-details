@@ -1,19 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-
 const StateCard = ({
   name,
   chiefMinister,
   homeMinister,
   financeMinister,
   educationMinister,
-  stateDetail
+  image,
+  stateDetail,
 }) => {
   return (
     <div className="country-card">
       <Link to={`/${name}`} state={stateDetail}>
-        <img src={`src/assets/${name}.png`} />
+        <img src={image} />
         <div className="card-text">
           <h3 className="card-title">{name}</h3>
           <p>
@@ -21,10 +21,12 @@ const StateCard = ({
             {chiefMinister}
           </p>
           <p>
-            <b>Education Minister: </b>{educationMinister}
+            <b>Education Minister: </b>
+            {educationMinister}
           </p>
           <p>
-            <b>Home Minister: </b>{homeMinister}
+            <b>Home Minister: </b>
+            {homeMinister}
           </p>
         </div>
       </Link>
