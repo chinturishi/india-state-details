@@ -20,6 +20,7 @@ const StateList = () => {
             homeMinister={state.ministries.Home_Minister}
             financeMinister={state.ministries.Finance_Minister}
             educationMinister={state.ministries.Education_Minister}
+            stateDetail={state}
             />
           );
         })

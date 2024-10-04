@@ -2,16 +2,17 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 
- StateCard = ({
+const StateCard = ({
   name,
   chiefMinister,
   homeMinister,
   financeMinister,
   educationMinister,
+  stateDetail
 }) => {
   return (
     <div className="country-card">
-      <Link>
+      <Link to={`/${name}`} state={stateDetail}>
         <img src={`src/assets/${name}.png`} />
         <div className="card-text">
           <h3 className="card-title">{name}</h3>
